@@ -142,3 +142,96 @@ label
     font-size: 30px;
     margin-bottom: 50px;
 }
+.mediaheader
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width : 510px)
+{
+.bacimg
+{
+    display: none;
+}
+.mediaheader
+{
+    padding: 10px;
+    background-color: #F6F6F6;
+    display: block;
+    height: 400px;
+}
+.mediahead
+{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+} 
+.mediaheadmenu
+{
+    width: 140px;
+    height: 30px;
+}
+.mediap
+{
+    margin-top: 30px;
+    text-align: center;
+    color: #737373;
+    font-size: 35px;
+    
+}
+.mediap1
+{
+    margin-top: 70px;
+    text-align: center;
+    color: #737373;
+    font-size: 35px;
+}
+.mediaimgbac
+{
+    background-image: url(./imge/photo_2026-06-11_05-05-25.jpg);
+    margin-top: 50px;
+    width: 100%;
+    background-size: cover;
+    height: 1100px;
+}
+.mediah1het
+{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.mediah1hetp
+{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.but2
+{
+    margin-left: 23%;
+    margin-bottom: 10px;
+}
+.but3
+{
+    margin-left: 27%;
+    margin-bottom: 10px;
+}
+.formsek1
+{
+   margin: auto;
+   border-radius: 5px;
+   margin-top: 50px;
+}
+}
