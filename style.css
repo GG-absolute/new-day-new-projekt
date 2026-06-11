@@ -146,16 +146,251 @@ label
 {
     display: none;
 }
+.pcfortext
+{
+    text-align: center;
+}
+.pcfortext p
+{
+    color: #737373;
+}
+.pcfortext h1
+{
+    color: #252B42;
+}
+
+.pcfortext
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.pcfortext p
+{
+    color: #737373;
+    margin-top: 15px;
+}
+.pcfortext h1
+{
+    color: #252B42;
+    font-size: 40px;
+}
+.cardsflex
+{
+    display: flex;
+    width: 77%;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.cardsek
+{
+    background-color: white;
+    padding: 30px;
+    width: 280px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+.starsflex
+{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.starsflex img
+{
+    width: 20px;
+    height: 20px;
+}
+.cardp
+{
+    color: #737373;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.avatarimg
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.mediacards
+{
+    display: none;
+}
 
 
 
+.GG1
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.GG1 p
+{
+    color: #737373;
+    margin-top: 15px;
+}
+.GG1 h1
+{
+    color: #252B42;
+    font-size: 40px;
+}
+.GG2
+{
+    display: flex;
+    width: 77%;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.GG3
+{
+    background-color: white;
+    width: 330px;
+    height: 500px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+.GG4
+{
+    background-color: #96D7F9;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.imgg5
+{
+width: 100px;
+height: 100px;
+}
 
-
-
-
+.GG5 img
+{
+    width: 70px;
+    height: 70px;
+}
+.GG6
+{
+    color: white;
+    font-size: 24px;
+}
+.GG7
+{
+    padding: 30px;
+    padding-top: 40px;
+}
+.GG8
+{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.GG9
+{
+    color: #737373;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+.GG9::before
+{
+    content: '-';
+    position: absolute;
+    left: 0;
+}
+.GG10
+{
+    color: #23A6F0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+.V1
+{
+    display: none;
+}
 
 @media (max-width : 510px)
 {
+.GG1
+{
+    display: none;
+}
+.GG2
+{
+    display: none;
+}
+.V1
+{
+    margin-top: 1100px;
+    display: block;
+    background-color: #F6F6F6;
+    padding: 20px;
+    padding-top: 50px;
+}
+.V2
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.V2 h1
+{
+    color: #252B42;
+    font-size: 35px;
+}
+.V2 p
+{
+    color: #737373;
+    margin-top: 20px;
+}
+.V1 .GG3
+{
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.pcfortext
+{
+    display: none;
+}
+.cardsflex
+{
+    display: none;
+}
+.mediacards
+{
+    display: block;
+    background-color: #F6F6F6;
+    padding: 20px;
+    padding-top: 50px;
+}
+.pcfortextmedia
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pcfortextmedia h1
+{
+    color: #252B42;
+    font-size: 35px;
+}
+.pcfortextmedia p
+{
+    color: #737373;
+    margin-top: 20px;
+}
+.mediacards .cardsek
+{
+    margin: auto;
+    margin-bottom: 30px;
+}
 .bacimg
 {
     display: none;
